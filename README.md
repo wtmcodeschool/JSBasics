@@ -1,4 +1,4 @@
-<img src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwjhufvczPHMAhVCRVIKHbbHDGMQjRwIBw&url=http%3A%2F%2Fmontanacodeschool.com%2F&psig=AFQjCNGzwm8-lswcfC_voxRHRhedTGYuQg&ust=1464141086014463&cad=rja">
+<img src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwjhufvczPHMAhVCRVIKHbbHDGMQjRwIBw&url=http%3A%2F%2Fmontanacodeschool.com%2F&psig=AFQjCNGzwm8-lswcfC_voxRHRhedTGYuQg&ust=1464141086014463&cad=rja" />
 
 JavaScript Basics
 
