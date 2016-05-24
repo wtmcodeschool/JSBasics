@@ -1,4 +1,4 @@
-<img src="http://montanacodeschool.com/wp-content/uploads/2015/06/MCS_LOGO_v1.png" />
+<img src="http://montanacodeschool.com/wp-content/uploads/2015/06/MCS_LOGO_v1.png" width="200" align="right"/>
 
 JavaScript Basics
 
