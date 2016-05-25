@@ -8,6 +8,28 @@ The purpose of this day project is to familiarize yourself with the basic manipu
 ##Directions
 Fork and clone this repository. Complete all of the exercises. When you have finished, push your code into GitHub.
 
+##Testing
+
+To run the tests you must install mocha the testing program and use npm to install dependencies. In your terminal cd to the project directory type.
+
+```
+npm install
+```
+
+and when that is finished
+
+```
+npm install mocha -g
+```
+
+now you can run the tests by typing
+
+```
+mocha
+```
+
+in the project directory.
+
 ##Copyright
 
 (c) Montana Code School, 2016.
