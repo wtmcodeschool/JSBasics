@@ -36,12 +36,12 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-  describe('Array Excercise 4 - Upfront', function () {
+  describe('Array Excercise 4 - upFront', function () {
     it('should add a number to the beginning of an array', function () {
       var arr = [1, 2, 3]
-      var upfrontArray = basics.upfront(arr, 4)
-      expect(upfrontArray.length).to.eql(4)
-      expect(upfrontArray[0]).to.eql(4)
+      var upFrontArray = basics.upFront(arr, 4)
+      expect(upFrontArray.length).to.eql(4)
+      expect(upFrontArray[0]).to.eql(4)
     })
   })
 
