@@ -1,5 +1,5 @@
 // This is a general practice file for JavaScript Basics. Please follow the instructions thoughout the sheet. Do not uncomment the commented out spaces.
-var arr, findTwo, pusher, upFront, remover, noMore, copyCat, chopIt, sumIt, evenOdd, timesTen, animal, findAge, getKeys, changeName, speechMaker, addKey, keyLoop, cars, findModels
+var arr, findTwo, pusher, upFront, remover, copyCat, chopIt, sumIt, evenOdd, timesTen, animal, findAge, getKeys, changeName, speechMaker, addKey, keyLoop, cars, findModels
 
 // Arrays
 
@@ -53,7 +53,6 @@ module.exports = {
   pusher: pusher,
   upFront: upFront,
   remover: remover,
-  noMore: noMore,
   copyCat: copyCat,
   chopIt: chopIt,
   sumIt: sumIt,
