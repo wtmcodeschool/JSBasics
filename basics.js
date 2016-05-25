@@ -13,18 +13,16 @@ var arr, findTwo, pusher, upFront, remover, noMore, copyCat, chopIt, sumIt, even
 
 // 5. Create a function called remover that takes in an array and removes the value at the end of the array. Return the new array.
 
-// 6. Create a function called noMore that takes in an array and a number and positions the number in beginning of the array. Return the new array.
+// 6. Create a function called copyCat that takes in an array, copies, and returns the second and third index values.
 
-// 7. Create a function called copyCat that takes in an array, copies, and returns the second and third index values.
+// 7. Create a function called chopIt that takes in an array and two numbers, then inserts the two numbers into the array after the second index value and deletes the original third index value.
 
-// 8. Create a function called chopIt that takes in an array and two numbers, then inserts the two numbers into the array after the second index value and deletes the original third index value.
+// 8. Create a function called sumIt that takes in the array and returns the sum of each of the values in the array.
 
-// 9. Create a function called sumIt that takes in the array and returns the sum of each of the values in the array.
-
-// 10. Create a function called evenOdd that takes in the array and pushes into a new array "even" or "odd" for every value in the array, depending upon whether they are even or odd number values.
+// 9. Create a function called evenOdd that takes in the array and pushes into a new array "even" or "odd" for every value in the array, depending upon whether they are even or odd number values.
 // Hint: Use the modulus operator
 
-// 11. Create a function called timesTen that takes in an array and multiplies each value by 10 and returns the new array.
+// 10. Create a function called timesTen that takes in an array and multiplies each value by 10 and returns the new array.
 // Hint: Use the map method
 
 // Objects
