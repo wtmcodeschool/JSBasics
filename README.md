@@ -19,7 +19,7 @@ npm install
 and when that is finished
 
 ```
-npm install mocha -g
+npm install -g mocha 
 ```
 
 now you can run the tests by typing
