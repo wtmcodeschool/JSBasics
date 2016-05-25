@@ -91,11 +91,11 @@ describe('Basic JS Exercises', function () {
   describe('Array Exercise 10 - timesTen', function () {
     it('', function () {
       var arr = [1, 2, 3]
-      var evenOddArr = basics.evenOdd(arr)
-      expect(evenOddArr.length).to.eql(3)
-      expect(evenOddArr[0]).to.eql(10)
-      expect(evenOddArr[1]).to.eql(20)
-      expect(evenOddArr[2]).to.eql(30)
+      var timesTenArr = basics.timesTen(arr)
+      expect(timesTenArr.length).to.eql(3)
+      expect(timesTenArr[0]).to.eql(10)
+      expect(timesTenArr[1]).to.eql(20)
+      expect(timesTenArr[2]).to.eql(30)
     })
   })
 
