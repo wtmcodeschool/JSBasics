@@ -55,13 +55,8 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-<<<<<<< HEAD
   describe('Array Excercise 7 - Copycat', function () {
     it('should copy the 2nd and 3rd index', function () {
-=======
-  describe('Array Excercise 6 - Copycat', function () {
-    it('should copy the 3rd and the 4th index', function () {
->>>>>>> f8077561cbf862782e87d52ca2d6a411b27f6044
       var arr = [1, 2, 3, 4]
       var copycatArray = basics.copyCat(arr)
       expect(copycatArray.length).to.eql(2)
