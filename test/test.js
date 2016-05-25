@@ -55,7 +55,7 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-  describe('Array Excercise 7 - Copycat', function () {
+  describe('Array Excercise 6 - Copycat', function () {
     it('should copy the 3rd and the 4th index', function () {
       var arr = [1, 2, 3, 4]
       var copycatArray = basics.copyCat(arr)
@@ -65,11 +65,11 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-  describe('Array Excercise 8 - chopIt', function () {
+  describe('Array Excercise 7 - chopIt', function () {
     it('should', function () {})
   })
 
-  describe('Array Excercise 9 - sumIt', function () {
+  describe('Array Excercise 8 - sumIt', function () {
     it('should sum the values in an array of numbers', function () {
       var arr = [1, 2, 3]
       var sum = basics.sumIt(arr)
@@ -77,7 +77,7 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-  describe('Array Excercise 10 - evenOdd', function () {
+  describe('Array Excercise 9 - evenOdd', function () {
     it('Should return an array where even numbers correspond to even and odd to odd', function () {
       var arr = [1, 2, 3]
       var evenOddArr = basics.evenOdd(arr)
@@ -88,7 +88,7 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-  describe('Array Excercise 11 - timesTen', function () {
+  describe('Array Excercise 10 - timesTen', function () {
     it('', function () {
       var arr = [1, 2, 3]
       var evenOddArr = basics.evenOdd(arr)
