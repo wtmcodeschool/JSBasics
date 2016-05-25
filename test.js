@@ -33,12 +33,12 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-  describe('Array Excercise 4 - Upfront', function () {
+  describe('Array Excercise 4 - upFront', function () {
     it('should add a number to the beginning of an array', function () {
       var arr = [1, 2, 3]
-      var upfrontArray = basics.upfront(arr, 4)
-      expect(upfrontArray.length).to.be(4)
-      expect(upfrontArray[0]).to.be(4)
+      var upFrontArray = basics.upFront(arr, 4)
+      expect(upFrontArray.length).to.be(4)
+      expect(upFrontArray[0]).to.be(4)
     })
   })
 
@@ -52,7 +52,7 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-  describe('Array Excercise 7 - Copycat', function () {
+  describe('Array Excercise 6 - Copycat', function () {
     it('should copy the 3rd and the 4th index', function () {
       var arr = [1, 2, 3, 4]
       var copycatArray = basics.copyCat(arr)
@@ -62,13 +62,13 @@ describe('Basic JS Excercises', function () {
     })
   })
 
+  describe('Array Excercise 7', function () {})
+
   describe('Array Excercise 8', function () {})
 
   describe('Array Excercise 9', function () {})
 
   describe('Array Excercise 10', function () {})
-
-  describe('Array Excercise 11', function () {})
 
   describe('Object Excercise 1', function () {})
 
