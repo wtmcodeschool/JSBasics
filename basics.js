@@ -1,5 +1,6 @@
 // This is a general practice file for JavaScript Basics. Please follow the instructions thoughout the sheet. Do not uncomment the commented out spaces.
-var arr, findTwo, pusher, upFront, remover, noMore, copyCat, chopIt, sumIt
+var arr, findTwo, pusher, upFront, remover, noMore, copyCat, chopIt, sumIt, evenOdd, timesTen, animal, findAge, getKeys, changeName, speechMaker, addKey, keyLoop, cars, findModels
+
 // Arrays
 
 // 1. Create the variable arr and assign it an array with the following list of numbers 12, 42, 36, 51, 96
@@ -57,5 +58,16 @@ module.exports = {
   noMore: noMore,
   copyCat: copyCat,
   chopIt: chopIt,
-  sumIt: sumIt
+  sumIt: sumIt,
+  evenOdd: evenOdd,
+  timesTen: timesTen,
+  animal: animal,
+  findAge: findAge,
+  getKeys: getKeys,
+  changeName: changeName,
+  speechMaker: speechMaker,
+  addKey: addKey,
+  keyLoop: keyLoop,
+  cars: cars,
+  findModels: findModels
 }
