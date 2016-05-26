@@ -6,8 +6,8 @@ var basics = require('../basics')
 const chai = require('chai')
 console.log('basics', basics)
 var expect = chai.expect
-describe('Basic JS Excercises', function () {
-  describe('Array Excercise 1', function () {
+describe('Basic JS Exercises', function () {
+  describe('Array Exercise 1', function () {
     it('should be an array of length 5', function () {
       expect(basics.arr.length).to.eql(5)
     })
@@ -20,14 +20,14 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-  describe('Array Excercise 2 - findTwo', function () {
+  describe('Array Exercise 2 - findTwo', function () {
     it('should return the second number of an array', function () {
       var arr = [1, 2, 3]
       expect(basics.findTwo(arr)).to.eql(3)
     })
   })
 
-  describe('Array Excercise 3 - Pusher', function () {
+  describe('Array Exercise 3 - Pusher', function () {
     it('should add a number to the end of an array', function () {
       var arr = [1, 2, 3]
       var pushedArray = basics.pusher(arr, 4)
@@ -36,7 +36,7 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-  describe('Array Excercise 4 - upFront', function () {
+  describe('Array Exercise 4 - upFront', function () {
     it('should add a number to the beginning of an array', function () {
       var arr = [1, 2, 3]
       var upFrontArray = basics.upFront(arr, 4)
@@ -45,7 +45,7 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-  describe('Array Excercise 5 - remover', function () {
+  describe('Array Exercise 5 - remover', function () {
     it('should remove a number from the beginning of an array', function () {
       var arr = [1, 2, 3]
       var removedArray = basics.remover(arr)
@@ -55,7 +55,7 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-  describe('Array Excercise 7 - Copycat', function () {
+  describe('Array Exercise 6 - Copycat', function () {
     it('should copy the 2nd and 3rd index', function () {
       var arr = [1, 2, 3, 4]
       var copycatArray = basics.copyCat(arr)
@@ -65,11 +65,18 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-  describe('Array Excercise 7 - chopIt', function () {
-    it('should', function () {})
+  describe('Array Exercise 7 - chopIt', function () {
+    it('should insert the two numbers into the array after the second index value and delete the third index value', function () {
+      var arr = [1,2,3,4,5]
+      var chopItArr = basics.chopIt(arr, 6, 7)
+      expect(chopItArr.length).to.eql(5)
+      expect(chopItArr[3]).to.eql(6)
+      expect(chopItArr[4]).to.eql(7)
+      expect(chopItArr[5]).to.eql(5)
+    })
   })
 
-  describe('Array Excercise 8 - sumIt', function () {
+  describe('Array Exercise 8 - sumIt', function () {
     it('should sum the values in an array of numbers', function () {
       var arr = [1, 2, 3]
       var sum = basics.sumIt(arr)
@@ -77,7 +84,7 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-  describe('Array Excercise 9 - evenOdd', function () {
+  describe('Array Exercise 9 - evenOdd', function () {
     it('Should return an array where even numbers correspond to even and odd to odd', function () {
       var arr = [1, 2, 3]
       var evenOddArr = basics.evenOdd(arr)
@@ -88,18 +95,18 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-  describe('Array Excercise 10 - timesTen', function () {
+  describe('Array Exercise 10 - timesTen', function () {
     it('', function () {
       var arr = [1, 2, 3]
-      var evenOddArr = basics.evenOdd(arr)
-      expect(evenOddArr.length).to.eql(3)
-      expect(evenOddArr[0]).to.eql(10)
-      expect(evenOddArr[1]).to.eql(20)
-      expect(evenOddArr[2]).to.eql(30)
+      var timesTenArr = basics.timesTen(arr)
+      expect(timesTenArr.length).to.eql(3)
+      expect(timesTenArr[0]).to.eql(10)
+      expect(timesTenArr[1]).to.eql(20)
+      expect(timesTenArr[2]).to.eql(30)
     })
   })
 
-  describe('Object Excercise 1 - animal', function () {
+  describe('Object Exercise 1 - animal', function () {
     it('Should have the appropriate keys', function () {
       expect(basics.animal.species).to.be.ok()
       expect(basics.animal.name).to.be.ok()
@@ -112,21 +119,21 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-  describe('Object Excercise 2 - findAge', function () {
+  describe('Object Exercise 2 - findAge', function () {
     it('', function () {
       var age = basics.findAge({age: 10})
       expect(age).to.eql(10)
     })
   })
 
-  describe('Object Excercise 3 - getKeys', function () {
+  describe('Object Exercise 3 - getKeys', function () {
     it('should return an array of all of the keys', function () {
       var keys = basics.getKeys({ a: 10, b: 5, c: 6 })
       expect(keys).to.have.lengthOf(3)
     })
   })
 
-  describe('Object Excercise 4 - changeName', function () {
+  describe('Object Exercise 4 - changeName', function () {
     it('should change the name of an object', function () {
       var obj = {name: 'Tom'}
       basics.changeName(obj, 'Larry')
@@ -134,14 +141,14 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-  describe('Object Excercise 5 - speechMaker', function () {
+  describe('Object Exercise 5 - speechMaker', function () {
     it('should return the result of a speech function', function () {
       var speech = basics.speechMaker({ speech: function () { return 'hello' } })
       expect(speech).to.eql('hello')
     })
   })
 
-  describe('Object Excercise 6 - addKey', function () {
+  describe('Object Exercise 6 - addKey', function () {
     it('should add a bedtime key to an object and assign it a value', function () {
       var obj = {}
       basics.addKey(obj)
@@ -149,7 +156,7 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-  describe('Object Excercise 7 - keyLoop', function () {
+  describe('Object Exercise 7 - keyLoop', function () {
     it("should report if there's a monkey key in the object", function () {
       var obj = { monkey: true }
       expect(basics.keyLoop(obj)).to.eql("There's a monkey!")
@@ -160,11 +167,11 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-  describe('Intermediate Excercise 1 - cars', function () {
+  describe('Intermediate Exercise 1 - cars', function () {
     it('', function () {})
   })
 
-  describe('Intermediate Excercise 2 - findModels', function () {
+  describe('Intermediate Exercise 2 - findModels', function () {
     it('', function () {})
   })
 })
