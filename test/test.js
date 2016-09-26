@@ -96,7 +96,7 @@ describe('Basic JS Exercises', function () {
   })
 
   describe('Array Exercise 10 - timesTen', function () {
-    it('', function () {
+    it('Should return a new array where each value is multiplied by ten', function () {
       var arr = [1, 2, 3]
       var timesTenArr = basics.timesTen(arr)
       expect(timesTenArr.length).to.eql(3)
@@ -114,7 +114,7 @@ describe('Basic JS Exercises', function () {
       expect(basics.animal.gender).to.be.ok()
       expect(basics.animal.favoriteFood).to.be.ok()
     })
-    it('should have a speech method that returns a string', function () {
+    it('Dhould have a speech method that returns a string', function () {
       expect(basics.animal.speech()).to.be.a('string')
     })
   })
