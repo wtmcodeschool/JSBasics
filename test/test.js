@@ -21,7 +21,7 @@ describe('Basic JS Exercises', function () {
   })
 
   describe('Array Exercise 2 - findTwo', function () {
-    it('should return the second number of an array', function () {
+    it('should return the second index of an array', function () {
       var arr = [1, 2, 3]
       expect(basics.findTwo(arr)).to.eql(3)
     })
