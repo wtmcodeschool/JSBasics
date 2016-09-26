@@ -185,27 +185,44 @@ describe('Basic JS Exercises', function () {
   })
 
   describe('Intermediate Exercise 2 - findModels', function () {
-    it('should be an array of length 3', function () {
-      expect(basics.findModels(arr)).to.eql(3)
+      it('should be an array of length 3', function () {
+        var arr = [{
+            make: "Chevy",
+            model: "Corvette",
+            year: 2015
+          },{
+            make: "Honda",
+            model: "Civic",
+            year: 1980
+          },{
+            make: "Ford",
+            model: "F-150",
+            year: 2010
+          }
+        ];
+        var newarr = basics.findModels(arr);
+        console.log(newarr);
+        expect(newarr.length).to.eql(3)
+      })
+      it('should return an array of the model values', function () {
+        var arr = [{
+            make: "Chevy",
+            model: "Corvette",
+            year: 2015
+          },{
+            make: "Honda",
+            model: "Civic",
+            year: 1980
+          },{
+            make: "Ford",
+            model: "F-150",
+            year: 2010
+          }
+        ];
+        expect(basics.findModels(arr)[0]).to.eql("Corvette")
+        expect(basics.findModels(arr)[1]).to.eql("Civic")
+        expect(basics.findModels(arr)[2]).to.eql("F-150")
+
+      })
     })
-    it('should return an array of the model values', function () {
-      var arr = [{
-          make: "Chevy",
-          model: "Corvette",
-          year: 2015
-        },{
-          make: "Honda",
-          model: "Civic",
-          year: 1980
-        },{
-          make: "Ford",
-          model: "F-150",
-          year: 2010
-        }
-      ];
-      expect(basics.findModels(arr)[0]).to.eql("Corvette")
-      expect(basics.findModels(arr)[1]).to.eql("Civic")
-      expect(basics.findModels(arr)[2]).to.eql("F-150")
-    })
-  })
 })
