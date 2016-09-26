@@ -120,7 +120,7 @@ describe('Basic JS Exercises', function () {
   })
 
   describe('Object Exercise 2 - findAge', function () {
-    it('', function () {
+    it('should return the age value', function () {
       var age = basics.findAge({age: 10})
       expect(age).to.eql(10)
     })
@@ -168,10 +168,44 @@ describe('Basic JS Exercises', function () {
   })
 
   describe('Intermediate Exercise 1 - cars', function () {
-    it('', function () {})
+    it('should be an array of length 3', function () {
+      expect(basics.cars.length).to.eql(3)
+    })
+    it('should have valid key value pairs for all 3 car objects',function(){
+      expect(basics.cars[0].make).to.not.eql(undefined)
+      expect(basics.cars[0].model).to.not.eql(undefined)
+      expect(basics.cars[0].year).to.not.eql(undefined)
+      expect(basics.cars[1].make).to.not.eql(undefined)
+      expect(basics.cars[1].model).to.not.eql(undefined)
+      expect(basics.cars[1].year).to.not.eql(undefined)
+      expect(basics.cars[2].make).to.not.eql(undefined)
+      expect(basics.cars[2].model).to.not.eql(undefined)
+      expect(basics.cars[2].year).to.not.eql(undefined)
+    })
   })
 
   describe('Intermediate Exercise 2 - findModels', function () {
-    it('', function () {})
+    it('should be an array of length 3', function () {
+      expect(basics.findModels(arr)).to.eql(3)
+    })
+    it('should return an array of the model values', function () {
+      var arr = [{
+          make: "Chevy",
+          model: "Corvette",
+          year: 2015
+        },{
+          make: "Honda",
+          model: "Civic",
+          year: 1980
+        },{
+          make: "Ford",
+          model: "F-150",
+          year: 2010
+        }
+      ];
+      expect(basics.findModels(arr)[0]).to.eql("Corvette")
+      expect(basics.findModels(arr)[1]).to.eql("Civic")
+      expect(basics.findModels(arr)[2]).to.eql("F-150")
+    })
   })
 })
