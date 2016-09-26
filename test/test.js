@@ -108,11 +108,11 @@ describe('Basic JS Exercises', function () {
 
   describe('Object Exercise 1 - animal', function () {
     it('Should have the appropriate keys', function () {
-      expect(basics.animal.species).to.be.ok()
-      expect(basics.animal.name).to.be.ok()
-      expect(basics.animal.age).to.be.ok()
-      expect(basics.animal.gender).to.be.ok()
-      expect(basics.animal.favoriteFood).to.be.ok()
+      expect(basics.animal.species).to.not.eql(undefined)
+      expect(basics.animal.name).to.not.eql(undefined)
+      expect(basics.animal.age).to.not.eql(undefined)
+      expect(basics.animal.gender).to.not.eql(undefined)
+      expect(basics.animal.favoriteFood).to.not.eql(undefined)
     })
     it('Dhould have a speech method that returns a string', function () {
       expect(basics.animal.speech()).to.be.a('string')
