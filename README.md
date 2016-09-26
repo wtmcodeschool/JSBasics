@@ -10,25 +10,25 @@ Fork and clone this repository. Complete all of the exercises in the basics.js f
 
 ##Testing
 
-To run the tests you must install mocha the testing program and use npm to install dependencies. In your terminal cd to the project directory type.
+To run the tests you must install mocha, a testing program, and use npm to install dependencies. In your terminal cd to the project directory. Then do the following.
 
 ```
+npm init
 npm install
 ```
-
 and when that is finished
-
 ```
 npm install -g mocha
 ```
-
+OR
+```
+sudo npm install -g mocha
+```
 now you can run the tests by typing
-
 ```
 mocha
 ```
-
-in the project directory.
+in the project directory. If you have correctly completed each of the exercises, they will pop up as green with a checkmark. Otherwise, you will have red x's.
 
 ##Copyright
 

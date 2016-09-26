@@ -129,7 +129,7 @@ describe('Basic JS Exercises', function () {
   describe('Object Exercise 3 - getKeys', function () {
     it('should return an array of all of the keys', function () {
       var keys = basics.getKeys({ a: 10, b: 5, c: 6 })
-      expect(keys.to.have.lengthOf(3))
+      expect(keys).to.have.lengthOf(3)
     })
   })
 
