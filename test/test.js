@@ -69,7 +69,7 @@ describe('Basic JS Exercises', function () {
     it('should insert the two numbers into the array after the second index value and delete the third index value', function () {
       var arr = [1,2,3,4,5]
       var chopItArr = basics.chopIt(arr, 6, 7)
-      expect(chopItArr.length).to.eql(5)
+      expect(chopItArr.length).to.eql(6)
       expect(chopItArr[3]).to.eql(6)
       expect(chopItArr[4]).to.eql(7)
       expect(chopItArr[5]).to.eql(5)
