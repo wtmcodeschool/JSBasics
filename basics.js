@@ -162,10 +162,12 @@ function keyLoop(obj){
 
   for (var values in obj)
     {
-      if(obj[values] == "monkey"){
-       return "There's a monkey!"}
+      if(obj[values] == "monkey")
+      {
+       return "There's a monkey!";
+     }
    }
-      return "There's no monkey here!"
+      return "There's no monkey here!";
 }
 
 
