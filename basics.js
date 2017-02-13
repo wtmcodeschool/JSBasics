@@ -158,26 +158,14 @@ function addKey(theObject)
 }
 
 // 7. Create a function called keyLoop that takes in an object and loops through each of the key values. If any of the key values are equal to "monkey", then return "There's a monkey!", otherwise return "There's no monkey here!".
-function keyLoop(theObject)
-{
-  var monkeyFound = false;
+function keyLoop(obj){
 
-  for (var value in theObject)
-  {
-    if(theObject[value] == "monkey")
+  for (var values in obj)
     {
-      monkeyFound = true;
-    }
-  }
-
-  if(monkeyFound)
-      {
-        return "There's a monkey!";
-      }
-      else {
-        return "There's no monkey here!";
-      }
-
+      if(obj[values] == "monkey"){
+       return "There's a monkey!"}
+   }
+      return "There's no monkey here!"
 }
 
 
